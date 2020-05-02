@@ -2,6 +2,8 @@
 #include "vertex.h"
 #include "graph.h"
 const int infinity = std::numeric_limits<int>::max();
+
+//source - https://en.wikipedia.org/wiki/Breadth-first_search
 template <class T>
 void bfs_init(graph<T>* graph, vertex<T>* s)
 {

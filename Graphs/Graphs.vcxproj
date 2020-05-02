@@ -22,10 +22,12 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="bellmanford.h" />
     <ClInclude Include="bfs.h" />
     <ClInclude Include="dijkstra.h" />
     <ClInclude Include="edge.h" />
     <ClInclude Include="graph.h" />
+    <ClInclude Include="primebasic.h" />
     <ClInclude Include="vertex.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

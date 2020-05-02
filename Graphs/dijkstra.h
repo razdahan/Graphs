@@ -3,7 +3,7 @@
 #include "vertex.h"
 #include "graph.h"
 
-
+//source - https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 
 template <class T>
 void dij_init(graph<T>* graph, vertex<T>* s)

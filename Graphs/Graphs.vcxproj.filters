@@ -35,5 +35,11 @@
     <ClInclude Include="vertex.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="bellmanford.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="primebasic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

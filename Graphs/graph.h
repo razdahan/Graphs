@@ -31,10 +31,9 @@ public:
 		this->adj[u].push_back(v);
 		this->w[{u, v}] = weight;
 
-		/*add these 2 lines to implement non directional graph
+		/*add these 2 lines to implement non directional graph*/
 		adj[u].push_back(v);
-		this->edges_.push_back(new edge<int>(v, u));
-		*/
+		this->edges.push_back(new edge<int>(v, u,weight));
 	}
 
 	void add_edge(vertex<T>* u, vertex<T>* v)
@@ -46,13 +45,12 @@ public:
 
 		/*add these 2 lines to implement non directional graph
 		adj[u].push_back(v);
-		this->edges_.push_back(new edge<int>(v, u));
+		this->edges.push_back(new edge<int>(v, u));
 		*/
 	}
 
 	vertex<T>* extract_min()
 	{
-		std::cout << "finding min" << std::endl;
 		vertex<T>* min = pq[0];
 		auto min_index = 0;
 		auto counter = 0;
